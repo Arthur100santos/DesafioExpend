@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 245, 222);
+}
+
+/* section{
+    margin: 10rem;
+    background-color: hsl(27, 66%, 92%);
+    width: auto;
+    border: 15px solid hsl(27, 66%, 92%);
+    padding: 500rem;
+} */
+
+
+.price{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: auto;
+    background-color: hsl(10, 79%, 65%);
+    box-sizing: content-box;
+    width: 450px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    gap: 15rem;
+
+    text-align: justify;
+}
+
+span{
+    font-size: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+    width: 489px;
+    height: 500px;
+    margin: auto;
+
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+}
+
+.graficos{
+    margin-left: 4px;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    gap: 1.6rem;
+    align-items: end;
+    
+}
+
+.espaco-mon {
+    background-color: hsl(10, 79%, 65%);
+    height: 50px;
+    width: 47px;
+    border-radius: 6px;
+}
+.espaco-tue {
+    background-color: hsl(10, 79%, 65%);
+    height: 90px;
+    width: 47px;
+    border-radius: 6px;
+}
+.espaco-thu {
+    background-color: hsl(10, 79%, 65%);
+    height: 79px;
+    width: 47px;
+    border-radius: 6px;
+}
+.espaco-fri {
+    background-color: hsl(10, 79%, 65%);
+    height: 60px;
+    width: 47px;
+    border-radius: 6px;
+}
+.espaco-sat {
+    background-color: hsl(10, 79%, 65%);
+    height: 100px;
+    width: 47px;
+    border-radius: 6px;
+}
+.espaco-sun {
+    background-color: hsl(10, 79%, 65%);
+    height: 50px;
+    width: 47px;
+    border-radius: 6px;
+}
+
+
+.espaco-wed{
+    background-color: hsl(186, 34%, 60%);
+    height: 150px;
+    width: 47px;
+    border-radius: 6px;
+}
+
+.total{
+    margin-left: 9px;
+    color: rgb(128, 128, 128);
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1{
+    padding: 9px;
+}
+
+.porcentagem{
+    font-size: medium;
+}
+
+.mespassado{
+    padding: 9px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: end;
+}
+
+.borda{
+    background-color: rgb(207, 207, 207);
+    height: 1px;
+}
